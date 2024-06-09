@@ -58,6 +58,6 @@ public class OrdineServlet extends HttpServlet {
 		}catch(SQLException e) {
 			System.out.println("Error:" + e.getMessage());
 		}
-	}
+	 }
 
 }
