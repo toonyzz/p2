@@ -9,6 +9,7 @@
 	}
 %>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +50,7 @@
 		
 		<tr>
 			<td> <%= nomeP%></td>
-			<td> <%= comp.getQuantità()%></td>
+			<td> <%= comp.getQuantita()%></td>
 			<td> &euro;<%= prezzoUnitario%></td>
 			<td>  &euro;<%= String.format("%.2f",comp.getPrezzoTotale())%></td>
 			<td> <%= comp.getIva()%></td>
